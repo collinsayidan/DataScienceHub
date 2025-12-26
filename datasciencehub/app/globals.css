@@ -14,5 +14,3 @@ html, body { height: 100%; }
 body { background: var(--bg-900); color: var(--text-100); }
 
 a { color: var(--text-100); }
-
-.container { @apply mx-auto max-w-7xl px-4; }
