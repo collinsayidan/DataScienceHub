@@ -1,0 +1,1 @@
+export default function Resources(){ return <div className="py-10">Resources will live here.</div> }

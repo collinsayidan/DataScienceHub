@@ -1,0 +1,22 @@
+---
+# Beginner SQL: Analyzing Customer Churn – Step 1
+---
+
+> **Goal:** Create the `customers` table and insert the provided CSV data.
+
+1. Run the following DDL:
+```sql
+CREATE TABLE customers (
+  customer_id INTEGER PRIMARY KEY,
+  join_date DATE,
+  last_activity_date DATE,
+  churned TEXT,
+  subscription_type TEXT,
+  monthly_spend DECIMAL
+);
+```
+
+2. Import `customers.csv` and then verify:
+```sql
+SELECT COUNT(*) FROM customers;
+```

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-blue: #1F6FEB;
+  --brand-green: #2DA44E;
+  --bg-900: #0B1220;
+  --bg-800: #0F172A;
+  --text-100: #E5E7EB;
+}
+
+html, body { height: 100%; }
+body { background: var(--bg-900); color: var(--text-100); }
+
+a { color: var(--text-100); }
+
+.container { @apply mx-auto max-w-7xl px-4; }

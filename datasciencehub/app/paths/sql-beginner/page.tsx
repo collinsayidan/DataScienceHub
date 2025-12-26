@@ -1,0 +1,1 @@
+export default function Path(){ return <div className="py-10">SQL Beginner Path.</div> }

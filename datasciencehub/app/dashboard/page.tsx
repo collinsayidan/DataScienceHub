@@ -1,0 +1,1 @@
+export default function Dashboard(){ return <div className="py-10">Welcome to your dashboard.</div> }

@@ -1,0 +1,1 @@
+export default function Leaderboard(){ return <div className="py-10">Leaderboard coming soon.</div> }

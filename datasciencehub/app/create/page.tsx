@@ -1,0 +1,1 @@
+export default function Create(){ return <div className="py-10">Creator studio (guarded in future).</div> }

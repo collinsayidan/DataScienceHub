@@ -1,0 +1,1 @@
+export default function AITutor(){ return <div className="py-10">AI Tutor shell.</div> }
