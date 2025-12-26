@@ -1,12 +1,14 @@
-import './globals.css'
-import { ThemeProvider } from '@/components/theme-provider'
-import { Header } from '@/components/header'
-import type { Metadata } from 'next'
+
+// app/layout.tsx
+import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import { Header } from "@/components/header";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'DataScienceHub',
-  description: 'Learn by building end-to-end data projects.'
-}
+  title: "DataScienceHub",
+  description: "Learn by building end-to-end data projects.",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -18,5 +20,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
